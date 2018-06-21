@@ -2,7 +2,9 @@ import React from 'react';
 
 const App = props => {
   return(
-    <h1>Place Fluffballs here</h1>
+    <div className = "app">
+      <h1>Place Fluffballs here</h1>
+    </div>
   )
 }
 
