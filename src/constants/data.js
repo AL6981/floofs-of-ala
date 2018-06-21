@@ -5,14 +5,14 @@ const animals = {
         id: 1,
         breed: "pit/lab",
         name: "Sir Geoffrey Drake Arrington",
-        image: "https://imgur.com/a/1vDT4Ze",
+        image: "https://i.imgur.com/Eyw9YNV.png",
         human: "AmyLynn"
       },
       {
         id: 2,
         breed: "ottoman with legs, maybe part hippo",
         name: "Miss Islay Mae Arrington",
-        image: "https://imgur.com/a/IXNR3KI",
+        image: "https://i.imgur.com/pxG7sIa.png",
         human: "AmyLynn"
       }
     ],
@@ -33,22 +33,22 @@ const animals = {
         human: "AmyLynn"
       }
     ],
-  roaches:
+  bugs:
     [
       {
         id: 7,
-        species: "Madagascar Hissing Cockroach",
+        species: "Madagascar Hissing Cockroach, (Gromphadorhina portentosa)",
         personality: "territorial, loves the ladies",
         name: "Caelian",
-        image: "https://imgur.com/a/n3BToxX",
+        image: "https://i.imgur.com/QiEIzOw.png",
         human: "AmyLynn"
       },
       {
         id: 8,
-        species: "Madagascar Hissing Cockroach",
+        species: "Madagascar Hissing Cockroach (Gromphadorhina portentosa)",
         personality: "mellow, loves to reproduce",
         name: "Aventine",
-        image: "https://imgur.com/a/LQiMOkK",
+        image: "https://i.imgur.com/37QAsyR.png",
         human: "AmyLynn"
       }
     ]
