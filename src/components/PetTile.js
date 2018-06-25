@@ -1,14 +1,14 @@
 import React from 'react';
 
-const DogTile = props => {
+const PetTile = props => {
   return(
-    <div className="tile">
+    <div onClick={props.handleClick} className={ `tile ${props.className}`}>
       <h4>{props.name}</h4>
-      <h5>{props.breed}</h5>
+      <h5>*{props.about}</h5>
       <h5>{props.human}</h5>
       <img width="200px" src={props.image} />
     </div>
   )
 }
 
-export default DogTile;
+export default PetTile;
