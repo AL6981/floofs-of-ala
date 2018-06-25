@@ -1,4 +1,4 @@
-const animals = {
+const data = {
   dogs:
     [
       {
@@ -54,4 +54,4 @@ const animals = {
     ]
   }
 
-export default animals;
+export default data;
