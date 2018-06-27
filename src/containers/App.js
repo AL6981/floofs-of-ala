@@ -1,12 +1,12 @@
 import React from 'react';
-import PetsContainer from './PetsContainer';
+import PetContainer from './PetContainer';
 
 const App = props => {
   return(
     <div className = "app">
       <h1>Place Pets here</h1>
-      <PetsContainer
-        data={props.data.pets}
+      <PetContainer
+        pets={props.data.pets}
       />
     </div>
   )
