@@ -4,9 +4,9 @@ import PetsContainer from './PetsContainer';
 const App = props => {
   return(
     <div className = "app">
-      <h1>Place Fluffballs here</h1>
+      <h1>Place Pets here</h1>
       <PetsContainer
-        petData = {props.data.pets}
+        data={props.data.pets}
       />
     </div>
   )
