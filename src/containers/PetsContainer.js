@@ -7,9 +7,10 @@ class PetsContainer extends React.Component {
     this.state = {
       selectedPet: null
     }
+    this.selectPet = this.selectPet.bind(this)
   }
 
-  requestSelectedPet(pet){
+  selectPet(pet){
     this.setState({selectedPet: pet})
   }
 
@@ -17,8 +18,8 @@ class PetsContainer extends React.Component {
 
     let petsArray = this.props.data.map(pet => {
 
-      handleClick(pet.id){
-        this.requestSelectedPet(pet.id)
+      let handleClick = () => {
+        this.selectPet(pet.id)
       }
 
       return(
@@ -28,6 +29,7 @@ class PetsContainer extends React.Component {
           species={pet.species}
           about={pet.about}
           image={pet.image}
+          handleClick={handleClick}
         />
       )
     })
